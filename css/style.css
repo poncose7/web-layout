@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+
+padding: 10px;
+
+border: 2px solid coral;
+}
+
+.header{
+
+height: 100px;
+
+text-align: center;
+
+background-color: #1abc9c;
+
+color: #000;
+
+border: 1px solid darkred;
+
+padding: 28px;
+}
+
+.banner{
+
+height: 500px;
+
+background-color: #3498db;
+
+color: white;
+
+text-align: center;
+
+border: 1px solid bisque;
+
+margin-top: 5px;
+
+padding: 30px;
+}
+
+.about{
+
+display: flex;
+
+border: 1px solid coral;
+
+margin-top: 5px;
+
+/* padding: 10px; */
+
+/* justify-content: space-between; */
+}
+
+.about_image{width: 50%;height: 400px;background: url("../images/p3.jpg") no-repeat center/cover;color: black;text-align: center;/* display: flex; */margin-right: 5px;/* justify-content: revert; */}
+
+.image_content{
+    width: 50%;
+    height: 400px;
+    background-color: #34495e;
+    color:#2980b9;
+    text-align: center;
+
+}
+
+
+.service{
+
+justify-content: center;
+
+justify-content: center;
+
+display: flex;
+
+justify-content: space-between;
+
+margin-top: 5px;
+}
+
+
+.service_one{
+
+width: 32.3%;
+
+height: 400px;
+
+background-color: aqua;
+
+color: antiquewhite;
+
+text-align: center;
+}
+
+.service_two{
+    width: 33.3%;
+    height: 400px;
+    background-color:#16a085;
+    color: #e74c3c;
+    text-align: center;
+}
+
+.service_three{
+
+    width: 33.3%;
+    height: 400px;
+    background: url("../images/p2.jpg") no-repeat center/cover;
+    color:#f39c12;
+    text-align: center;
+}
+
+.works{
+
+display: flex;
+
+border:  1px solid blanchedalmond;
+
+margin-top: 5px;
+
+width: 100%;
+
+/* margin: 5px; */
+}
+
+.works_one{
+
+width: 25%;
+
+height: 300px;
+
+background-color: #273c75;
+
+color: #718093;
+
+text-align: center;
+
+margin-right: 5px;
+}
+
+.works_two{
+    width: 25%;
+    height: 300px;
+    background-color: #9c88ff;
+    color:#c23616;
+    text-align: center;
+    margin-right: 5px;
+}
+
+
+.works_three{
+
+width: 25%;
+
+height: 300px;
+
+background-color: #e1b12c;
+
+color:#f5f6fa;
+
+text-align: center;
+
+margin-right: 5px;
+}
+
+.works_four{
+
+width: 25%;
+
+height: 300px;
+
+background-color: #f8c291;
+
+color:#3c6382;
+
+text-align: center;
+}
+
+.footer{
+
+height: 80px;
+
+background-color: #3c6382;
+
+color: #e55039;
+
+text-align: center;
+
+border: 1px solid #25d9d9;
+
+margin-top: 5px;
+}
